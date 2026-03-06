@@ -1,12 +1,13 @@
 import { useState } from "react";
 import RepetitionExercise from "./components/RepetitionExercise";
 import DurationExercise from "./components/DurationExercise";
+import RunningExercise from "./components/RunningExercise";
 
 const EXERCISES = [
   { name: "Push Ups", type: "repetition" },
   { name: "Jumping Jacks", type: "repetition" },
   { name: "Plank", type: "duration" },
-  { name: "Running", type: "duration" },
+  { name: "Running", type: "running" }
 ];
 
 export default function App() {
